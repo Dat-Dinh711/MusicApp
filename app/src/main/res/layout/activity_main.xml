@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_musicapp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textviewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên bài hát"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/imageviewDisc"
+        android:layout_width="260dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="78dp"
+        android:src="@drawable/cd"/>
+
+    <ImageButton
+        android:id="@+id/imageButtonPre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="680dp"
+        android:src="@drawable/ic_back"
+        android:background="@null"/>
+
+    <ImageButton
+        android:id="@+id/imageButtonPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="193dp"
+        android:layout_marginTop="680dp"
+        android:src="@drawable/ic_play"
+        android:background="@null"/>
+
+
+    <ImageButton
+        android:id="@+id/imageButtonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="310dp"
+        android:src="@drawable/ic_next"
+        android:background="@null"/>
+
+    <SeekBar
+        android:id="@+id/seekbarSong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="610dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:thumbTint="#6E477E" />
+
+    <TextView
+        android:id="@+id/textviewTimeSong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="580dp"/>
+
+    <TextView
+        android:id="@+id/textviewTimeTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="350dp"/>
+
+</RelativeLayout>
